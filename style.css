@@ -20,7 +20,7 @@ div {
 
 footer {
   text-align: center;
-  font-size: 10%;
+  font-size: 60%;
 }
 
 .container {
@@ -28,7 +28,7 @@ footer {
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: auto;
   gap: 3px;
-  margin: 0 25px 15px 25px;
+  margin: 0 35px 15px 35px;
 }
 
 @keyframes plant {
