@@ -1,0 +1,72 @@
+html {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f3ddd2;
+}
+
+img {
+  min-height: 0;
+  min-width: 0;
+  max-width: 100%;
+}
+
+div {
+  max-width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background-color: transparent;
+}
+
+footer {
+  text-align: center;
+  font-size: 10%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  gap: 3px;
+  margin: 0 25px 15px 25px;
+}
+
+@keyframes plant {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.icon {
+  align-self: center;
+  display: inline-grid;
+  justify-items: stretch;
+  animation-duration: 2s;
+  animation-name: plant;
+}
+
+.top-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*background-color: rgba(80, 111, 60, 0.347);*/
+  height: 40px;
+  margin-top: 10px;
+}
+
+.underscore {
+  height: 3px;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 15px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.262);
+}
+
+
